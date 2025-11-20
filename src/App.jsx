@@ -19,7 +19,12 @@ function App() {
   return (
     <div>
       <h1 style={{backgroundColor:"grey",border:"2px solid #000"}} >{name}</h1>
-      <h2>{ students.map((elem , i)=> <li>{elem.name}</li>)}</h2>
+      <ul>
+      {
+       students.map((elem , i)=> <li>{elem.name}</li>)
+       }
+
+      </ul>
     </div>
   );
 }
