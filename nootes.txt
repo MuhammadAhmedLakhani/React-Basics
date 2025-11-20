@@ -216,5 +216,20 @@ app as have to reload again and again
 *)Virtual DOM compare the old virtual DOM and New Virtual DOM
 *)it update the real DOM only where change is occured and not reload it   
 
+---component composition
+
+*)components can be placed individually to a parent component 
+usually App 
+*)If a change comes in a component then we donot  need to change
+ the code again and again at different places
+*)Just updating particular component will be enough
+
+*)parent composition refers to parent component controlling flow of
+program with child components inside  
+
+
+
+
+
 
 
