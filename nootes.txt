@@ -179,3 +179,9 @@ ii)passing the function to another callback function
 *)best practice is second method and if you want to pass an argument
 to a function then call back function approach is better
 
+---object
+
+*)just like in javascript in react you cannot show/render whole object 
+at the same time
+
+*)instead you can render individual properties with dot notation
