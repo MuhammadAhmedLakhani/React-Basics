@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import img from './assets/images/image.jpeg'
-
+import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx'
 
 
 // function App() {
@@ -25,21 +25,8 @@ import img from './assets/images/image.jpeg'
 // export default App;
 
 
-function Header(){
-  return (
-    <div>
-      <h1>Header</h1>
-    </div>
-  )
-}
 
-function Footer(){
-  return (
-    <div>
-      <h1>Footer</h1>
-    </div>
-  )
-}
+
 
 
 function App() {

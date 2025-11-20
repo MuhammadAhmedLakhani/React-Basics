@@ -228,6 +228,11 @@ usually App
 program with child components inside  
 
 
+*)ideally each component need to be in different file and can
+be import when needed
+
+
+
 
 
 
