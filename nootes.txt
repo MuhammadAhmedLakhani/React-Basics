@@ -197,3 +197,24 @@ array at once
 *)You can rendere the data from the given object in UI
 *)map method iterates through array and return the name
  proverty value of each object
+
+ ---Virtual DOM
+
+*)In React there are two DOMs:
+1)Real DOM
+ii)Virtual DOM
+
+*)traditionally when change occurs in ui we need to reload the page
+to make the changes track ny real DOM
+*)in liver server this reload is done automatically but it slows the
+app as have to reload again and again
+ 
+*)With virtual DOM development is easy , faster and performance
+ is improved but how?
+*)Virtual DOM initially gets the copy of the real DOM and save it
+*)new Virtual DOM is created  and when changes occurs 
+*)Virtual DOM compare the old virtual DOM and New Virtual DOM
+*)it update the real DOM only where change is occured and not reload it   
+
+
+
