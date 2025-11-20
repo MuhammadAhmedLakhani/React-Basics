@@ -232,7 +232,10 @@ program with child components inside
 be import when needed
 
 
-
+*)more better approach is to import the components in a seprate file
+(component.js) for example and and export them simultanously 
+without default keyword
+*)this will enable to import them  in App.jsx in a single line 
 
 
 
