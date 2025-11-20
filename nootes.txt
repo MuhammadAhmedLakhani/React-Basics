@@ -1,0 +1,152 @@
+
+----Framework vs Library
+
+*)Framework is complete environment and has to follow its 
+architecture ,no modification allowed in framework as 
+architecture is set once
+*)example of framework is angular ,next
+*)react is library which is smaller than framework
+
+*)framework is enough for complete development solution
+
+*)library is not enough for complete project
+
+*)different libraries needed to be use together for 
+achieving complete solution
+
+*)bootstrap is not enough for complete project
+
+*)nextjs is enough for completing a functional project
+
+----- React -------
+--intro
+
+*)it is not seo friendly 
+*)routing needed to be installed with react
+*)solution is next js
+*) pre requisite of nextjs is javascript and react
+
+--terminologies
+
+*)components is piece of code like header button and are reuseable
+*)jsx (jsvsdcript xmale)
+
+
+
+*)react is difficult to start with so another library helps in 
+starting react project called CRA(Create React App)
+
+--example
+*)command is as follows myproject can be relaced with your own projectname	
+  
+ npx create-react-app myproject
+
+
+--build
+
+*)browser understand only javascript so react code is converted 
+to html css and js through build
+
+--npm
+*)node pakage manager(comes with node js)
+*)its a vast directory of node pakages
+---npx
+
+*)node package eXecute 
+*)it is a npm pakage runner
+*)npx allows to use node pakage available in NPM registry
+ without installling them
+
+----staring react project
+
+*)starting project command is as follows
+
+  npm start
+
+*)note that start is name of actual command and is present in 
+pakage.json file,so you can change its name but you would need to 
+use run as start is default keyname and run is not needed ther
+*)example of it is:
+
+  npm run dev
+
+*)dev is the name we replace with start in pakage.json file
+
+
+
+*)
+
+
+
+-----yarn
+
+*)yarn is another pakage manager but not npm
+*)performance os yarn is better than npm
+*)installing yarn command is as follows:
+
+	npm i -g yarn
+
+*)this command will globally install yarn in our project
+
+*)to check yarn version command is as follows
+
+    yarn --version
+
+ 
+*)you can start porject with yarn as well
+
+
+---JSX
+
+*)has .jsx extention
+*)allowed html shortcuts like h2 enter 
+and both opening andclosing tags created
+*)if you wan to write javascript in react then curly brakets
+ {} are must
+*)donot allow self closing tags to be open like <br> not allowed
+instead <br/> is accepted
+*)passing style in html through style tag is not allowed like:
+--Xxx <h2 style = "colour:red;border:2px solid red">hello</h2> --XXX
+
+--CSS
+
+*)Importinf app.css is necessary in app.jsx file as no css 
+link in head tag
+*)you can add inline css as well with props
+*)inline css is not a good practice
+
+--prop
+
+*)in react attributes are defined with props
+*)style attribute take object
+*)inside that oject you need another object as want to write 
+javascript there
+*)props also require curly brackets {}
+*)you specify css property in style prop through camelCase 
+and propertyvalue in string as you use in javascript
+*)example is:
+
+<h2 style = {{backgroundColor:"red"}} >Hello World</h1>
+
+
+*)can add multiple properties through comma seprated
+
+---class
+
+*)instead of writing classes in "class" attribute you need
+ to use "className"
+
+--image
+
+*)you will always import images before using them unlike acessing 
+everywhere in javascript through directory structure or path
+*) for images comes from addresses like internet url
+
+--v2-image
+
+*)for downloaded images "React:image V2" commit explains
+*)its better to make assests folder and images folder in src folder
+and save downloaded image there 
+
+
+
