@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <h1 style={{backgroundColor:"grey",border:"2px solid #000"}} >{name}</h1>
-      <button onClick={foo}>Click Me</button>
+      <button onClick={()=>foo()}>Click Me</button>
       <br />
       <img src={img} alt="" />
     </div>
