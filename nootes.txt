@@ -148,5 +148,34 @@ everywhere in javascript through directory structure or path
 *)its better to make assests folder and images folder in src folder
 and save downloaded image there 
 
+*)you can import image with any name (not necessary for same name
+as you save with) 
+*)
 
+---variable
+
+*)you can set any static varaible outside of the app component
+and use it inside the component in same file
+*)Variable can be object , array etc
+*)Variable can be made inside component before the return keyword
+
+--functions
+
+*)functions will also be defined before return keyword
+*)function can be passed to events like onClick but event
+ name follow camelCase rules
+*)if you put the functioncall inside curley brakets of onClick 
+events like:
+
+<button onClick = {foo()}><button/>
+
+*)function will be called before even clicking as curley brackets
+{ } means javascript will be running
+
+*) there are two possible ways to tackle this:
+i)use the function name only (no round brackets)
+ii)passing the function to another callback function
+
+*)best practice is second method and if you want to pass an argument
+to a function then call back function approach is better
 
