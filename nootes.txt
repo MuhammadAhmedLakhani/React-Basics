@@ -191,3 +191,9 @@ at the same time
 *)just like in javascript in react you can render/show the whole
 array at once
 *)array element will be shown without any spaces in between
+
+--list rendering
+
+*)You can rendere the data from the given object in UI
+*)map method iterates through array and return the name
+ proverty value of each object

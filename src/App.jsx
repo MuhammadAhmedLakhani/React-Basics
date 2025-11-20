@@ -2,7 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import img from './assets/images/image.jpeg'
 
-let arr = ["Ahmed","Ahad","Ghous"]
+let students = [ {
+  name:"Ahmed",
+  email:"Ahmed@gmail.com"
+},{
+  name:"Ghous",
+  email:"Ghous@gmail.com"
+}]
 
 
 function App() {
@@ -13,10 +19,7 @@ function App() {
   return (
     <div>
       <h1 style={{backgroundColor:"grey",border:"2px solid #000"}} >{name}</h1>
-      <h2>{arr}</h2>
-      <button onClick={()=>foo("Hello")}>Click Me</button>
-      <br />
-      <img src={img} alt="" />
+      <h2>{ students.map((elem , i)=> <li>{elem.name}</li>)}</h2>
     </div>
   );
 }
