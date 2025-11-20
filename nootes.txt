@@ -185,3 +185,9 @@ to a function then call back function approach is better
 at the same time
 
 *)instead you can render individual properties with dot notation
+
+--array
+
+*)just like in javascript in react you can render/show the whole
+array at once
+*)array element will be shown without any spaces in between
