@@ -253,3 +253,21 @@ we too receive props in a object called props
  component to child component (like we pass array 
 names arr's value Parent Component to child component 
 )
+
+
+---props(passing data from child to parent component)
+
+*)Passing data from parent to child is easy
+*)here first getData is defined inside parent component
+App.js 
+*)the function is passed as prop to child component
+Card.jsx with propname as getdata
+*)after destructuring of the getData function 
+to getdata (to avoid using prop.getData) we use
+it inside a button with an event onClick
+*)when event is trigered a call back function calls 
+the getdata function inside child(Card component)
+*)in calling function we passed data to getdata function 
+as an argument which is received in parent component
+(App.js) as it is where function body is defined
+*)So this way you pass data from child to parent

@@ -28,6 +28,10 @@ import Card from './components/Card.jsx';
 
 function App() {
     const arr = ["one","two","three"]
+    const getData1 = (a)=> {
+      console.log("----parent",a)
+    }
+
   return (
     <div>
 
@@ -37,7 +41,7 @@ function App() {
 
               // passing value to component like argument to function
 
-              <Card key={i}  value={v} i={i}/>
+              <Card key={i}  value={v}  getdata={getData1} />
             )
           
 
