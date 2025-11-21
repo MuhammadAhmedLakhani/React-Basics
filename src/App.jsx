@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {Header , Footer} from './components/component'
-
+import Card from './components/Card.jsx';
 
 // function App() {
 //   let name = "Muhammad Ahmed";
@@ -24,18 +24,6 @@ import {Header , Footer} from './components/component'
 // export default App;
 
               //prop is like parameter to recieve the argument but accepts object
-function Card(prop){
-console.log(prop)
-    return (
-
-      <div>
-          <h1>{prop.value}</h1>
-      </div>
-
-    )
-
-}
-
 
 
 function App() {

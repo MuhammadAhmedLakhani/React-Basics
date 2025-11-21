@@ -248,3 +248,8 @@ we too receive props in a object called props
 *)prop.propname is way to get them individually
 
 
+
+*)main purpose of prop is to pass data from parent
+ component to child component (like we pass array 
+names arr's value Parent Component to child component 
+)
