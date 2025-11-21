@@ -238,6 +238,13 @@ without default keyword
 *)this will enable to import them  in App.jsx in a single line 
 
 
+----props
 
+*)as we pass data to functions we pass data to component as well
+*)props are passed to component as like arguments in function
+*)as we receive arguments in function parameter
+we too receive props in a object called props
+*)props can be multiple
+*)prop.propname is way to get them individually
 
 

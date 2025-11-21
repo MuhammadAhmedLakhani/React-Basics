@@ -23,19 +23,40 @@ import {Header , Footer} from './components/component'
 
 // export default App;
 
+              //prop is like parameter to recieve the argument but accepts object
+function Card(prop){
+console.log(prop)
+    return (
 
+      <div>
+          <h1>{prop.value}</h1>
+      </div>
 
+    )
+
+}
 
 
 
 function App() {
+    const arr = ["one","two","three"]
   return (
     <div>
-      <Header/>
-      <div>
-        <p>SMIT</p>
-      </div>
-      <Footer/>
+
+        {
+
+          arr.map((v,i)=>
+
+              // passing value to component like argument to function
+
+              <Card key={i}  value={v} i={i}/>
+            )
+          
+
+
+        }
+
+
     </div>
   )
 }
