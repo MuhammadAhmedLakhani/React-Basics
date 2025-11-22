@@ -3,6 +3,8 @@ import './App.css';
 import {Header , Footer} from './components/component'
 import Card from './components/Card.jsx';
 
+import Input from './components/Input.jsx'
+
 // function App() {
 //   let name = "Muhammad Ahmed";
 //   const foo = (a)=>{
@@ -27,22 +29,24 @@ import Card from './components/Card.jsx';
 
 
 function App() {
-    const arr = ["one","two","three"]
-    const getData1 = (a)=> {
-      console.log("----parent",a)
-    }
+    // const arr = ["one","two","three"]
+    // const getData1 = (a)=> {
+    //   console.log("----parent",a)
+    // }
 
   return (
     <div>
 
         {
 
-          arr.map((v,i)=>
+          <Input  chnageFunction = {(e)=>console.log(e.target.value)}  />
 
-              // passing value to component like argument to function
+          // arr.map((v,i)=>
 
-              <Card key={i}  value={v}  getdata={getData1} />
-            )
+          //     // passing value to component like argument to function
+
+          //     <Card key={i}  value={v}  getdata={getData1} />
+          //   )
           
 
 
